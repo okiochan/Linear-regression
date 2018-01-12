@@ -35,6 +35,15 @@ def RidgeRegression(X,y,C):
 
 посмотрим на результаты
 
-![](https://raw.githubusercontent.com/okiochan/Linear-regression/master/img/i1.png)
+Вначале идет **вектор-решение для линейной регрессии** с 6-ю параметрами, на исходной выборке. Его SSE на обучающей выборке и контрольной.
+
+Потом идет **вектор-решение для линейной регрессии с применением PCA** на исходной выборке (мы выбрали одну компоненту). Его SSE на обучающей выборке и контрольной.
 
 ![](https://raw.githubusercontent.com/okiochan/Linear-regression/master/img/i2.png)
+
+Мы выидим, что для данной выборки, линейная регрессия дает меньшую ошибку. PCA тут практически в 2 раза хуже отработал.
+Ниже на графике **линейная регрессия с PCA для текущей выборки**
+
+![](https://raw.githubusercontent.com/okiochan/Linear-regression/master/img/i1.png)
+
+
